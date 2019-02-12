@@ -12,7 +12,9 @@ public class CarApp {
         print(car1.isStopped());
 
         Car car2 = new Car();
-        car2.setColor();
+        car2.setColor("Silver ");
+        car2.setMake("Chrysler");
+        car2.setModel("Pacifica");
     }
 
     public static void print(String str){
