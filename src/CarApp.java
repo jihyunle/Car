@@ -13,8 +13,18 @@ public class CarApp {
 
         Car car2 = new Car();
         car2.setColor("Silver ");
-        car2.setMake("Chrysler");
+        car2.setMake("Chrysler ");
         car2.setModel("Pacifica");
+        print(car1.startEngine());
+        print(car2.startEngine());
+        print(car1.accelerate());
+        print(car2.accelerate());
+        print(car2.hasStopped());
+        print(car2.passTest());
+        car1.setSpeed(60);
+        print(car1.getSpeed());
+        print(car1.isStopped());
+        print(car2.passCar(car2, car1));
     }
 
     public static void print(String str){
