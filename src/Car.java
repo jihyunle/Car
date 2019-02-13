@@ -1,6 +1,7 @@
 public class Car extends Vehicle { // extends Object
 
     private int speed;
+//    Driver driver = new Driver();
 
     public Car() {
         super();
@@ -10,6 +11,7 @@ public class Car extends Vehicle { // extends Object
     public Car(String color, String make) {
         setColor(color);
         setMake(make);
+//        driver.setName("Bob");
     }
 
     // methods that return a string indicating each task the car is performing
@@ -53,6 +55,10 @@ public class Car extends Vehicle { // extends Object
         return "The car you entered is a " + getYear() + " " + getColor() + " " + getMake() + " " + getModel() + " ";
 
     }
+
+//    public String getDriver(){
+//        return "The " + getColor() + " " + getMake() + " is being driven by " + driver.getName();
+//    }
 
 }
 

@@ -15,6 +15,7 @@ public class CarApp {
         Car car = new Car("red", "porsche");
         driver.setName("Bob");
         print("The " + car.getColor() + " " + car.getMake() + " is being driven by " + driver.getName());
+//        print(car.getDriver());
 
     }
 

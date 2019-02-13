@@ -10,9 +10,10 @@ You will get Bob from the person.getName() method.
 public abstract class Person {
     private String name;
     private String occupation;
+    private Job job;
 
     public Person(){
-
+        job = new Job();
     }
 
     public String getName() {
