@@ -7,6 +7,11 @@ public class Car extends Vehicle { // extends Object
         speed = 0;
     }
 
+    public Car(String color, String make) {
+        setColor(color);
+        setMake(make);
+    }
+
     // methods that return a string indicating each task the car is performing
     public void setSpeed(int speed) {
         this.speed = speed;
