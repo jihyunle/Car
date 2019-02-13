@@ -6,7 +6,7 @@ public class Vehicle {
     private int year;
 
     // default constructor
-    public Vehicle(){
+    public Vehicle() {
         color = "";
         make = "";
         model = "";
@@ -14,7 +14,7 @@ public class Vehicle {
     }
 
     // overloaded constructor
-    public Vehicle(String color, String make, String model, int year){
+    public Vehicle(String color, String make, String model, int year) {
         this.color = color;
         this.make = make;
         this.model = model;
